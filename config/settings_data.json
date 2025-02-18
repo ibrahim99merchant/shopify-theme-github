@@ -222,7 +222,7 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-          "text": "#6a6a6a",
+          "text": "#f3f3f3",
           "button": "#b10938",
           "button_label": "#8e1839",
           "secondary_button_label": "#000000",
