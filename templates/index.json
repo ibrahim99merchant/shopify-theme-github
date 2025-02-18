@@ -12,24 +12,6 @@
     "slideshow_4nyLE7": {
       "type": "slideshow",
       "blocks": {
-        "slide_nB74Hm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/453264958_1625310978028393_7161290939262192753_n.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_fMngm4": {
           "type": "slide",
           "settings": {
@@ -51,6 +33,7 @@
         "slide_hpTrU6": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/images_2.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -64,31 +47,11 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_txr79i": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/smart.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_nB74Hm",
         "slide_fMngm4",
-        "slide_hpTrU6",
-        "slide_txr79i"
+        "slide_hpTrU6"
       ],
       "settings": {
         "layout": "full_bleed",
