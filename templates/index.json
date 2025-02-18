@@ -9,44 +9,116 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_4nyLE7": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_nB74Hm": {
+          "type": "slide",
           "settings": {
-            "heading": "<strong>Fresh Stock Fresh Import Not Smuggled Tyre Not Tempered Tyre</strong>",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/453264958_1625310978028393_7161290939262192753_n.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_fMngm4": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Find Tyre For Your Vehicle",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/09fed0fd40e1b3975a9a09ea4f8ff6db.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_kfkXqi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/images_1.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_3rf6mt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/images.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_txr79i": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/smart.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slide_nB74Hm",
+        "slide_fMngm4",
+        "slide_kfkXqi",
+        "slide_3rf6mt",
+        "slide_txr79i"
       ],
       "settings": {
-        "image": "shopify://shop_images/1000152195.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Chinise Top Brands"
       }
     },
     "featured_collection": {
@@ -79,7 +151,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "slideshow_4nyLE7",
     "featured_collection"
   ]
 }
