@@ -159,7 +159,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -220,6 +220,45 @@
         "show_text_below": true
       }
     },
+    "collage_AkwDi9": {
+      "type": "collage",
+      "blocks": {
+        "image_E49U3q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/images-_59.jpg"
+          }
+        },
+        "product_dndYGY": {
+          "type": "product",
+          "settings": {
+            "product": "onyx-265-70r16-all-terrain-ny-at187",
+            "second_image": false
+          }
+        },
+        "collection_DL99dx": {
+          "type": "collection",
+          "settings": {
+            "collection": "chaoyang-legend"
+          }
+        }
+      },
+      "block_order": [
+        "image_E49U3q",
+        "product_dndYGY",
+        "collection_DL99dx"
+      ],
+      "settings": {
+        "heading": "Substainable Tyres",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collection_list_VLJLFm": {
       "type": "collection-list",
       "blocks": {
@@ -252,7 +291,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -316,7 +355,7 @@
       ],
       "settings": {
         "product": "onyx-ny-801-165-70r14",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
@@ -335,6 +374,7 @@
     "rich_text_9PgzJA",
     "featured_collection",
     "image_banner_4ic6cT",
+    "collage_AkwDi9",
     "collection_list_VLJLFm",
     "featured_product_66JWm6"
   ]
