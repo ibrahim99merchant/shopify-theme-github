@@ -12,12 +12,12 @@
     "slideshow_4nyLE7": {
       "type": "slideshow",
       "blocks": {
-        "slide_bcHkYV": {
+        "slide_YtCMgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/images_3.png",
+            "image": "shopify://shop_images/large.png",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -34,35 +34,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Habilead.jpg",
-            "heading": "",
-            "heading_size": "h2",
+            "heading": "Upgrade Your Ride With New Tyres",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_YtCMgp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/images_1.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -88,25 +70,24 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/09fed0fd40e1b3975a9a09ea4f8ff6db.jpg",
-            "heading": "",
-            "heading_size": "h2",
+            "heading": "TYRES: Th Heart Of Your Ride",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_bcHkYV",
-        "slide_wfx8LK",
         "slide_YtCMgp",
+        "slide_wfx8LK",
         "slide_awkpzV",
         "slide_fMngm4"
       ],
@@ -127,20 +108,20 @@
         "heading_HQaR33": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "YOUR TRUSTED SOURCE FOR QUALITY TYRES",
+            "heading_size": "h2"
           }
         },
         "text_KWadge": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Whether you're looking for performance tyres to enhance your driving experience, all-season tyres for dependable year-round performance, or rugged off-road tyres to conquer any terrain, Ibrahim Tyre Merchant has you covered. We offer a wide range of tyres from top brands, ensuring you find the perfect fit for your vehicle and driving needs.</p>"
           }
         },
         "button_W33nk9": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
