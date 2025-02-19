@@ -211,10 +211,10 @@
         "buttons_4QAcpK": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Shop All",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -226,60 +226,55 @@
         "buttons_4QAcpK"
       ],
       "settings": {
+        "image": "shopify://shop_images/tire-r30-zoom_3d7d77db-6b30-4bc3-8980-992b1de9af0c.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "image_with_text_tbTmXr": {
-      "type": "image-with-text",
+    "collection_list_VLJLFm": {
+      "type": "collection-list",
       "blocks": {
-        "heading_GhpkTP": {
-          "type": "heading",
+        "featured_collection_BdpXTV": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "collection": "china-premium-quality-tyre"
           }
         },
-        "text_TPB7dN": {
-          "type": "text",
+        "featured_collection_bMGwyk": {
+          "type": "featured_collection",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "collection": "onxy-brand-tyres"
           }
         },
-        "button_YTaRiA": {
-          "type": "button",
+        "featured_collection_3EYnqi": {
+          "type": "featured_collection",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "collection": "chaoyang-legend"
           }
         }
       },
       "block_order": [
-        "heading_GhpkTP",
-        "text_TPB7dN",
-        "button_YTaRiA"
+        "featured_collection_BdpXTV",
+        "featured_collection_bMGwyk",
+        "featured_collection_3EYnqi"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -339,7 +334,7 @@
         "share_X64GF6"
       ],
       "settings": {
-        "product": "",
+        "product": "onyx-ny-801-165-70r14",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -352,46 +347,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collection_list_VLJLFm": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_BdpXTV": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_3EYnqi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_bMGwyk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_BdpXTV",
-        "featured_collection_3EYnqi",
-        "featured_collection_bMGwyk"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -399,7 +354,6 @@
     "rich_text_9PgzJA",
     "featured_collection",
     "image_banner_4ic6cT",
-    "image_with_text_tbTmXr",
     "collection_list_VLJLFm",
     "featured_product_66JWm6"
   ]
