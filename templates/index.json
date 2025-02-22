@@ -197,15 +197,15 @@
         "heading_kKrBrQ": {
           "type": "heading",
           "settings": {
-            "heading": "Grip The Road, Conquer The Miles",
-            "heading_size": "h1"
+            "heading": "<strong>Grip The Road, Conquer The Miles,</strong>",
+            "heading_size": "h2"
           }
         },
         "text_c96Cc8": {
           "type": "text",
           "settings": {
-            "text": "Dont let your tyres hold you back because life's too short for flat tyres.  Get your wheels roling with th right tires from Ibrahim Tyre Merchant.",
-            "text_style": "body"
+            "text": "<strong>Dont Let Your Tyres Hold You Back Because Life's Too Short For Flat Tyres, Get Your Wheels Roling With The Right Tires From Ibrahim Tyre Merchant.</strong>",
+            "text_style": "subtitle"
           }
         },
         "buttons_4QAcpK": {
