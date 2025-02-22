@@ -12,6 +12,24 @@
     "slideshow_4nyLE7": {
       "type": "slideshow",
       "blocks": {
+        "slide_e6w8RG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/images_1_7b76085d-ba1f-4f61-82eb-aba3be5e2e94.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_wfx8LK": {
           "type": "slide",
           "settings": {
@@ -68,6 +86,7 @@
         }
       },
       "block_order": [
+        "slide_e6w8RG",
         "slide_wfx8LK",
         "slide_awkpzV",
         "slide_fMngm4"
@@ -200,192 +219,12 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "collage_AkwDi9": {
-      "type": "collage",
-      "blocks": {
-        "image_E49U3q": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/images-_59.jpg"
-          }
-        },
-        "product_dndYGY": {
-          "type": "product",
-          "settings": {
-            "product": "onyx-265-70r16-all-terrain-ny-at187",
-            "second_image": false
-          }
-        },
-        "collection_DL99dx": {
-          "type": "collection",
-          "settings": {
-            "collection": "chaoyang-legend"
-          }
-        }
-      },
-      "block_order": [
-        "image_E49U3q",
-        "product_dndYGY",
-        "collection_DL99dx"
-      ],
-      "settings": {
-        "heading": "Substainable Tyres",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collection_list_VLJLFm": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_BdpXTV": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "china-premium-quality-tyre"
-          }
-        },
-        "featured_collection_bMGwyk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "onxy-brand-tyres"
-          }
-        },
-        "featured_collection_3EYnqi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chaoyang-legend"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_BdpXTV",
-        "featured_collection_bMGwyk",
-        "featured_collection_3EYnqi"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-2",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_yh6kED": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "onxy-brand-tyres",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_66JWm6": {
-      "type": "featured-product",
-      "blocks": {
-        "text_wNdNTA": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_kzf7mG": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_KDq4pA": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_6ppbQz": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_bjdUf7": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_ezj4AB": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_X64GF6": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_wNdNTA",
-        "title_kzf7mG",
-        "price_KDq4pA",
-        "variant_picker_6ppbQz",
-        "quantity_selector_bjdUf7",
-        "buy_buttons_ezj4AB",
-        "share_X64GF6"
-      ],
-      "settings": {
-        "product": "onyx-ny-801-165-70r14",
-        "color_scheme": "scheme-2",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slideshow_4nyLE7",
     "rich_text_9PgzJA",
     "featured_collection",
-    "image_banner_4ic6cT",
-    "collage_AkwDi9",
-    "collection_list_VLJLFm",
-    "featured_collection_yh6kED",
-    "featured_product_66JWm6"
+    "image_banner_4ic6cT"
   ]
 }
