@@ -127,14 +127,14 @@
         "heading_HQaR33": {
           "type": "heading",
           "settings": {
-            "heading": "YOUR TRUSTED SOURCE FOR QUALITY TYRES",
+            "heading": "<strong>YOUR TRUSTED SOURCE FOR QUALITY TYRES</strong>",
             "heading_size": "h2"
           }
         },
         "text_KWadge": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether you're looking for performance tyres to enhance your driving experience, all-season tyres for dependable year-round performance, or rugged off-road tyres to conquer any terrain, Ibrahim Tyre Merchant has you covered. We offer a wide range of tyres from top brands, ensuring you find the perfect fit for your vehicle and driving needs.</p>"
+            "text": "<ul><li><strong>Whether You're Looking For Performance Tyres To Enhance Your Driving Experience,All-season Tyres For Dependable Year-Round Performance,Or Rugged Off-Road Tyres To Conquer Any Terrain,Ibrahim Tyre Merchant Has You Covered.We Offer a Wide Range Of Tyres From Top Brands,Ensuring You Find The Perfect Fit For Your Vehicle And Driving Needs.</strong></li></ul>"
           }
         },
         "button_W33nk9": {
@@ -157,7 +157,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
