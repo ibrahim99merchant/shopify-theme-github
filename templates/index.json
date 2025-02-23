@@ -16,17 +16,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/images_1_7b76085d-ba1f-4f61-82eb-aba3be5e2e94.jpg",
-            "heading": "",
+            "heading": "Warrior Tyre's",
             "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "<strong>Warrior Tyres is a well-established tyre brand originally from China, produced in collaboration between Double Coin Holdings Ltd. and Michelin. The brand is known for offering high-quality, durable, and cost-effective tyres for passenger cars, SUVs, and commercial vehicles. Warrior Tyres combines advanced technology with strict quality standards, making it a reliable choice in both domestic and international markets.</strong>",
+            "button_label": "Shop Warrior Tyre",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
