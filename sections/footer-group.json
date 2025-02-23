@@ -13,27 +13,6 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "text_pNBLwB": {
-          "type": "text",
-          "settings": {
-            "heading": "Our Partners",
-            "subtext": ""
-          }
-        },
-        "image_NRmEmR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1000171882.jpg",
-            "image_width": 100,
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "text_pNBLwB",
-        "image_NRmEmR"
-      ],
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_enable": true,
