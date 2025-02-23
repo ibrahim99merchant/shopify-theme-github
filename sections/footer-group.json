@@ -21,14 +21,6 @@
             "subtext": ""
           }
         },
-        "image_NncCmg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1000173248.jpg",
-            "image_width": 100,
-            "alignment": "center"
-          }
-        },
         "image_NRmEmR": {
           "type": "image",
           "settings": {
@@ -40,7 +32,6 @@
       },
       "block_order": [
         "text_pNBLwB",
-        "image_NncCmg",
         "image_NRmEmR"
       ],
       "settings": {
