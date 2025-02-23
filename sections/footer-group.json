@@ -13,6 +13,19 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_NncCmg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1000171882.jpg",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_NncCmg"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_enable": true,
