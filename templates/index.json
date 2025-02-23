@@ -70,17 +70,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/480564553_1981219765693391_5531572522804668868_n.jpg",
-            "heading": "",
+            "heading": "<strong>LOADR1STONE TYRES</strong>",
             "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "<strong>LOADR1STONE Loading Tyres – Strength & Reliability Manufactured by Shafiq Industries, LOADR1STONE Tyres are built for heavy-duty performance using high-quality raw materials imported from Indonesia. Designed for maximum load-bearing capacity, durability, and road grip, our tyres ensure superior performance for commercial and industrial vehicles. Choose LOADR1STONE – the trusted name in Loading Tyres.</strong>",
+            "button_label": "Shop LOADR1STONE",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
