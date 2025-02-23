@@ -41,10 +41,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/1000173248.jpg",
-            "heading": "",
-            "heading_size": "h1",
+            "heading": "Universal Trader's",
+            "heading_size": "h2",
             "subheading": "",
-            "button_label": "Button label",
+            "button_label": "Explore",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
