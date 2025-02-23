@@ -34,10 +34,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/smart_d924c38e-024c-400e-815c-c54e7070e84c.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "heading": "<strong>Tourador Tyres </strong>",
+            "heading_size": "h2",
+            "subheading": "<strong>Tourador Tyres is a tyre brand manufactured by Qingdao Otai Tire Co., Ltd., a Chinese tyre company specializing in high-performance and budget-friendly tyres. The brand offers a wide range of tyres for passenger cars, SUVs, and light trucks, focusing on durability, safety, and fuel efficiency. Tourador Tyres are designed with advanced tread patterns and rubber compounds to provide reliable performance in various driving conditions. The brand is gaining recognition in global markets for its balance of affordability and quality.</strong>",
+            "button_label": "Shop Tourador",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -53,7 +53,7 @@
           "settings": {
             "image": "shopify://shop_images/Habilead.jpg",
             "heading": "<strong>Habilead Zextour Kapsen</strong>",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "<strong>Zextour Tyres is a Chinese tyre brand known for its high-performance and cost-effective tyre solutions. It offers a range of products, including passenger car, SUV, and truck tyres, designed for durability, safety, and fuel efficiency. The brand focuses on advanced tread designs and quality materials to ensure reliable performance in various road conditions.Zextour and Habilead are both tyre brands produced by Shandong Huasheng Rubber Co., Ltd.,a Chinese tyre manufacturer.The company produces multiple brands, including Zextour, Habilead, Sunwide, and Kinforest, catering to different market segments.  they originate from the same manufacturer. </strong>",
             "button_label": "Shop Zextour Tyre",
             "link": "",
