@@ -52,17 +52,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Habilead.jpg",
-            "heading": "<strong>Upgrade Your Ride With Ibrahim Tyre Merchant</strong>",
+            "heading": "<strong>Habilead Zextour Kapsen</strong>",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "<strong>Zextour Tyres is a Chinese tyre brand known for its high-performance and cost-effective tyre solutions. It offers a range of products, including passenger car, SUV, and truck tyres, designed for durability, safety, and fuel efficiency. The brand focuses on advanced tread designs and quality materials to ensure reliable performance in various road conditions.Zextour and Habilead are both tyre brands produced by Shandong Huasheng Rubber Co., Ltd.,a Chinese tyre manufacturer.The company produces multiple brands, including Zextour, Habilead, Sunwide, and Kinforest, catering to different market segments.  they originate from the same manufacturer. </strong>",
+            "button_label": "Shop Zextour Tyre",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
