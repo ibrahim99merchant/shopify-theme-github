@@ -186,6 +186,11 @@
         "type": "shopify://apps/ecomrise/blocks/sale-notifications-app-embed/acb8bab5-decc-4989-8fb5-41075963cdef",
         "disabled": false,
         "settings": {}
+      },
+      "11674196072004505311": {
+        "type": "shopify://apps/myshop-whatsapp-button/blocks/widget/a5ad5d7c-50b7-4654-8fba-63fd50479f7d",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
