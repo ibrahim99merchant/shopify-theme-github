@@ -1,0 +1,129 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2025-02-25 10:45:31
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /><noscript><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /></noscript><script type="text/javascript" asyc="async" id="ecom-vendors-modal_js" src="https://cdn.ecomposer.app/vendors/js/ecom_modal.js" ></script>
+{%capture section_id %}ecom-footer-page{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-67bd9f4a8feb58f4c30e6625.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-67bd9f4a8feb58f4c30e6625.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="67bd9f4a8feb58f4c30e6625";
+ window.EComposer.PAGE = {"template_id":"67bd9f4a8feb58f4c30e6625","title":"footer","type":"page","slug":"ecom-footer","plan_id":1};
+ </script>
+<div class="ecom-builder" id="ecom-footer"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-1xgc8a6ot0d" data-id="ecom-1xgc8a6ot0d" data-notice-content="" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-h41xwb3i"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-f7wco4ub" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-aoyn44oq" data-id="ecom-aoyn44oq" data-notice-content="" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first ecom-t85jtd3l"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-fsxjvdudag5" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">Don't miss a think</h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-jb8r8x7rikq" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="2"><div class="text-content ecom-html has-drop-cap-view-framed"><div>Enter your email below to be the first to know about new collections and product launches.</div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-k4f372gkbuk" data-core-is="block"><div class="ecom-element ecom-shopify-elements ecom-shopify__newsletter-form" deep="2"><div class="ecom-shopify__newsletter-form-wrapper ecom-w__full"><div class="ecom-shopify__newsletter-form-container"><div>
+ {% form 'customer', action:'/contact', class: 'ecom-shopify__newsletter-form' ,id:'newsletter-form-ecom-k4f372gkbuk' %}
+ <input type="hidden" name="contact[tags]" value="newsletter" />
+ <div class="ecom-newsletter-form-content-wrap">
+ <div class="ecom-newsletter-form-content ">
+ <input
+ id="ECom-NewsletterForm-ecom-k4f372gkbuk"
+ type="email"
+ name="contact[email]"
+ class="ecom-shopify__newsletter-form-field--input"
+ value="{{ form.email }}"
+ aria-required="true"
+ autocorrect="off"
+ autocapitalize="off"
+ autocomplete="email"
+ {% if form.errors %}
+ aria-invalid="true"
+ {% endif %}
+ placeholder="example@gmail.com"
+ required
+ >
+ 
+ 
+ <button type="submit" class="ecome-shopify__newsletter__button" name="commit">
+ <span> </span>
+ <span class="ecom-shopify__newsletter__button-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M363.3 100.7l144 144C510.4 247.8 512 251.9 512 255.1s-1.562 8.188-4.688 11.31l-144 144c-6.25 6.25-16.38 6.25-22.62 0s-6.25-16.38 0-22.62l116.7-116.7H16c-8.844 0-16-7.156-16-15.1c0-8.844 7.156-16 16-16h441.4l-116.7-116.7c-6.25-6.25-6.25-16.38 0-22.62S357.1 94.44 363.3 100.7z"></path></svg> </span>
+ </button>
+ 
+ </div>
+ 
+ </div>
+ 
+ {%- if form.posted_successfully? or EComBuilderMode == true and false -%}
+ <div class="ecom-shopify__newsletter-form-success" {% unless EComBuilderMode %}tabindex="-1"{% endunless %}>
+ Subscribed successfully!
+ </div>
+ {%- endif -%}
+ {%- if form.errors or EComBuilderMode == true and false -%}
+ <div class="ecom-shopify__newsletter-form-message">
+ <h2 class="ecom-shopify__newsletter-form-status-error" role="alert" {% unless EComBuilderMode %}tabindex="-1"{% endunless %}>
+ Opps!. An error has occurred
+ </h2>
+ <p class="ecom-shopify__newsletter-form-detail-error">
+ {% if EComBuilderMode %}
+ This is example error text when missing email field
+ {% endif %}
+ {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+ </p>
+ </div>
+ {%- endif -%}
+ <div class="ecom-shopify__newsletter-form-message ecom-dn">
+ <p class="ecom-shopify__newsletter-form-detail-error">
+ Email have already subscribed!
+ </p>
+ </div>
+ {% endform %}
+ </div></div></div></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-iwnxz623"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-esfzkq3puq" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">About Us</h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-xpc6ku0wyfn" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="2"><div class="text-content ecom-html has-drop-cap-view-framed"><div>Contact Us</div><div>Sitmap</div><div>Conditions</div><div>Our Products</div><div>Privacy Policy</div></div></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-j6abpzzx"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-p65cl1195n" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">Service</h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-eqoqynql2xg" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="2"><div class="text-content ecom-html has-drop-cap-view-framed"><div>Help &amp; Contact</div><div>Returns &amp; Refunds</div><div>Online Stores</div><div>Refer a Friend</div><div>Terms &amp; Conditions</div></div></div></div> </div></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-0qaia5c9"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="3"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-479jgpy4r91" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">Our Store</h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-x6nyeeysvli" data-core-is="block"><div class="ecom__element ecom-element element__social" deep="2"><div class="ecom__element-social facebook" style=""><a href="https://www.facebook.com/sharer/sharer.php?u={current-link}" alt="facebook" aria-label="facebook" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-facebook-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+ <path d="M47.4,25.8L47.4,25.8h-5.6h-2v-2v-6.2v-2h2H46c1.1,0,2-0.8,2-2V3c0-1.1-0.8-2-2-2h-7.3c-7.9,0-13.4,5.6-13.4,13.9v8.7v2h-2
+ h-6.8c-1.4,0-2.7,1.1-2.7,2.7v7.2c0,1.4,1.1,2.7,2.7,2.7h6.6h2v2v20.1c0,1.4,1.1,2.7,2.7,2.7h9.4c0.6,0,1.1-0.3,1.5-0.7
+ s0.7-1.1,0.7-1.7l0,0l0,0V40.3v-2h2.1H46c1.3,0,2.3-0.8,2.5-2v-0.1v-0.1l1.4-6.9c0.1-0.7,0-1.5-0.6-2.3
+ C49.1,26.4,48.2,25.9,47.4,25.8z"></path>
+ </svg></span></div></a></div><div class="ecom__element-social twitter" style=""><a href="https://twitter.com/intent/tweet?url={current-link}" alt="twitter" aria-label="twitter" class="element-social-link" target="_blank"><div class="social-icon"><span><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></span></div></a></div><div class="ecom__element-social google" style=""><a href="#{current-link}" alt="google" aria-label="google" class="element-social-link" target="_blank"><div class="social-icon"><span></span></div></a></div><div class="ecom__element-social skype" style=""><a href="https://web.skype.com/share?url={current-link}" alt="skype" aria-label="skype" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-skype" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+ <path d="M3.1,32.3c0.1-1.4,0.1-2.7,0.4-3.9c0.1-0.6,0-1-0.3-1.6c-2.3-3.9-2.7-8.2-1.7-12.5c1.1-4.9,3.9-8.7,8.5-11
+ c5.6-3,11.3-3,16.9,0.1c0.4,0.1,0.8,0.3,1.4,0.1c7.2-0.8,13.8,0.6,19.9,4.7c6.3,4.2,10.3,10.1,12,17.6c0.8,3.2,0.8,6.6,0.4,9.9
+ c-0.1,0.4-0.1,0.8,0.1,1.3c2.3,3.9,3,8.2,1.7,12.7c-1.3,4.9-4.1,8.7-8.6,11.1c-5.6,3-11.4,3-16.9-0.1c-0.4-0.1-0.8-0.3-1.3-0.1
+ c-4.5,0.6-8.9,0.1-13.2-1.4c-5.6-1.8-10.3-5.4-13.8-10.1C5.9,45.2,4,41.2,3.5,36.7C3.2,35.1,3.2,33.7,3.1,32.3z M32.1,50.7
+ c1.7-0.1,3.2-0.4,4.9-0.6c2.4-0.4,4.5-1.4,6.3-2.7c3.1-2.5,4.4-5.8,3.9-9.7c-0.3-2.7-1.5-4.8-3.8-6.3c-1.1-0.8-2.5-1.4-3.8-1.8
+ c-3-1-6.1-1.7-9.2-2.5c-1.5-0.3-3-0.8-4.4-1.7c-1.6-1-2-2.7-1.1-4.1c0.6-1,1.6-1.6,2.5-2c1.7-0.7,3.4-0.7,5.1-0.6
+ c2.1,0.1,3.8,1.1,4.8,3c0.4,0.8,0.8,1.6,1.4,2.3c0.4,0.6,0.8,1.1,1.5,1.4c1.8,0.8,4.2-0.1,4.8-2c0.6-1.5,0.1-3-0.7-4.2
+ c-1.4-2.3-3.4-3.7-5.8-4.5c-2.3-0.8-4.5-1.1-7-1.1c-3.2,0-6.3,0.4-9.4,1.7c-3.2,1.6-5.2,3.9-5.6,7.6c-0.3,3.4,1.1,6.1,3.8,7.9
+ c1.7,1.3,3.7,2,5.8,2.5c2.1,0.6,4.2,1.1,6.5,1.5c1.4,0.4,3,0.8,4.2,1.5c2.5,1.5,2.7,4.8,0.4,6.6c-1.1,1-2.5,1.5-4.1,1.7
+ c-1.7,0.3-3.5,0.3-5.4-0.1c-2-0.6-3.2-2-4.2-3.7c-0.4-1.1-1-2-1.7-3c-0.8-1.3-2.1-1.5-3.5-1.3c-1.4,0.3-2.4,1.1-2.7,2.5
+ c-0.1,1.1,0,2.3,0.4,3.2c1.1,3,3.2,4.9,5.9,6.3C25.6,50.5,28.8,50.7,32.1,50.7z"></path>
+ </svg></span></div></a></div><div class="ecom__element-social whatsApp" style=""><a href="https://api.whatsapp.com/send/?phone&amp;text={current-link}" alt="whatsApp" aria-label="whatsApp" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-whatsapp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+ <g id="WA_Logo">
+ <g>
+ <path d="M54,9.9c-5.8-5.8-13.7-9-21.8-9C15.2,0.9,1.3,14.7,1.3,31.7c0,5.5,1.4,10.7,4.1,15.5L1,63.1l16.5-4.2
+ c4.5,2.4,9.6,3.8,14.8,3.8l0,0l0,0C49.2,62.6,63,48.8,63,31.7C63,23.5,59.8,15.8,54,9.9z M32.1,57.4L32.1,57.4
+ c-4.5,0-9.2-1.3-13.1-3.7l-1-0.6l-9.7,2.5l2.7-9.4l-0.6-1c-2.5-4.1-3.9-8.9-3.9-13.7c0-14.1,11.4-25.5,25.6-25.5
+ c6.8,0,13.2,2.7,18,7.5s7.5,11.3,7.5,18.2C57.8,46,46.2,57.4,32.1,57.4z M46.2,38.2c-0.8-0.4-4.5-2.3-5.4-2.4
+ c-0.7-0.3-1.3-0.4-1.7,0.4c-0.4,0.8-2,2.4-2.4,3c-0.4,0.4-0.8,0.6-1.7,0.1c-0.8-0.4-3.2-1.1-6.2-3.9c-2.3-2-3.9-4.5-4.2-5.4
+ c-0.4-0.8-0.1-1.1,0.4-1.6c0.4-0.4,0.8-0.8,1.1-1.4c0.4-0.4,0.4-0.8,0.8-1.3c0.4-0.4,0.1-1-0.1-1.4c-0.3-0.4-1.7-4.2-2.4-5.8
+ c-0.6-1.6-1.3-1.3-1.7-1.3c-0.4,0-1,0-1.4,0s-1.4,0.1-2,1c-0.7,0.8-2.7,2.7-2.7,6.5s2.7,7.3,3.2,8c0.4,0.4,5.5,8.3,13.1,11.7
+ c1.8,0.8,3.2,1.3,4.4,1.7c1.8,0.6,3.5,0.4,4.8,0.3c1.5-0.1,4.5-1.8,5.2-3.7c0.6-1.7,0.6-3.4,0.4-3.7
+ C47.5,38.8,46.9,38.5,46.2,38.2z"></path>
+ </g>
+ </g>
+ </svg></span></div></a></div><div class="ecom__element-social telegram" style=""><a href="https://t.me/share/url?url={current-link}" alt="telegram" aria-label="telegram" class="element-social-link" target="_blank"><div class="social-icon"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg></span></div></a></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-ah8i8f1n" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-o1ccrjfn" data-id="ecom-o1ccrjfn" data-notice-content="" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first ecom-pbuu9d03"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-gca2t24wkgo" data-core-is="block"><div class="ecom-element ecom-base-image" deep="2"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" data-notice-content="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay ecom-replace-notice" style=""><a href="https://placeholder.ecomposer.app/faker.png?width=271&height=21" class="ecom-image-picture-link ecom-image-picture ecom-base-image-container-overlay ecom-flex"><picture><img loading="lazy" fetchpriority="low" src="https://placeholder.ecomposer.app/faker.png?width=271&height=21" alt="payment-method" style=""></picture></a></div></div></figure></div></div> </div></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-acmgm8v8"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-61zz73fpi3b" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="2"><div class="text-content ecom-html has-drop-cap-view-framed">Copyright 2023. All Rights Reserved by EComposer.</div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>
+{% schema %}
+{
+ "name": "footer",
+ "locales": {},
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=page&id=67bd9f4a8feb58f4c30e6625&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}
