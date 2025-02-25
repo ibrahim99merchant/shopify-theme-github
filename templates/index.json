@@ -238,12 +238,36 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "174047641728269c50": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_carousel_widget_block_nqfPLD": {
+          "type": "shopify://apps/google-reviews/blocks/carousel-widget-block/8b378e9e-c56d-47ce-a754-feca5e0caf59",
+          "settings": {
+            "contentIndex": "1",
+            "themeId": "black",
+            "autoscroll": true,
+            "showRating": true,
+            "showReviewPhotos": true,
+            "writeReview": true,
+            "fixedReviewsHeight": true
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_carousel_widget_block_nqfPLD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "slideshow_4nyLE7",
     "rich_text_9PgzJA",
     "featured_collection",
-    "image_banner_4ic6cT"
+    "image_banner_4ic6cT",
+    "174047641728269c50"
   ]
 }
