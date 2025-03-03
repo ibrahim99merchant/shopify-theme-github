@@ -70,10 +70,20 @@
         "show_text_below": true,
         "accessibility_info": "Sl"
       }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
     }
   },
   "order": [
+    "shogun-helper",
     "main",
-    "slideshow_J8Wkz7"
+    "slideshow_J8Wkz7",
+    "shogun-optimizer"
   ]
 }
